@@ -1,5 +1,5 @@
 ---
-title: "Indicadores de género, VR"
+title: "Indicadores de genero, VR"
 description: |
   Welcome to the website. I hope you enjoy it!
 site: distill::distill_website
