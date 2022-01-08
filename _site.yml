@@ -1,7 +1,7 @@
 name: "."
-title: "Indicadores de género, VR"
+title: "Indicadores de genero, VR"
 description: |
-  Indicadores de género, VR
+  Indicadores de genero, VR
 output_dir: "docs"
 navbar:
   right:
