@@ -1,10 +1,5 @@
 ---
-title: "About this site"
+title: "Metodología"
 description: |
-  Some additional details about the website
+  Hemos desarrollado una metodología de medición cuantitativa y cualitativa para investigar si hay un efecto diferente por sexo o género en los programas y proyectos STEM de Plan Ceibal. También sistematizamos la evidencia empírica disponible generando información y conocimiento, a través del diseño y medición de un conjunto de indicadores.
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
-

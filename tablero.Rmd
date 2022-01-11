@@ -1,0 +1,11 @@
+---
+title: "Tablero de indicadores"
+description: |
+  Este tablero de indicadores de género cumple la doble función de **visibilizar** la situación de las niñas y mujeres en el área de STEM,y de **generar evidencia estadística** para realizar un monitoreo activo de las políticas implementadas.
+---
+
+```{r, echo=FALSE}
+library(DT)
+datatable(mtcars, rownames = FALSE, filter="top", options = list(pageLength = 5, scrollX=T) )
+```
+

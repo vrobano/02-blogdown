@@ -1,0 +1,14 @@
+<p style="text-align: center;">A work by <a href="https://github.com/vrobano/">Virginia Robano</a></p>
+<p style="text-align: center;"><span style="color: #ff9505;"><em>vrobano@gmail.com</em></span></p>
+
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Add font awesome icons -->
+<p style="text-align: center;">
+    <a href="https://twitter.com/vrobano" class="fa fa-twitter"></a>
+    <a href="https://www.linkedin.com/in/virginia-robano" class="fa fa-linkedin"></a>
+    <a href="https://github.com/vrobano/" class="fa fa-github"></a>
+    <a href="https://virginiarobano.com" class="fa fa-envelope"></a>
+</p>
+

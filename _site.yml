@@ -1,12 +1,20 @@
 name: "."
-title: "Indicadores de genero, VR"
+title: "Indicadores de genero en programas STEM de Plan Ceibal"
+author: "Virginia Robano, PhD"
 description: |
-  Indicadores de genero, VR
+  Género y STEM, Plan Ceibal
 output_dir: "docs"
+
 navbar:
   right:
     - text: "Home"
       href: index.html
-    - text: "About"
+    - text: "Metodología"
       href: about.html
+    - text: "Tablero"
+      href: tablero.html
+    - text: "JaP"
+      href: jap.html
+    - text: "Género y TIC"
+      href: cd.html
 output: distill::distill_article

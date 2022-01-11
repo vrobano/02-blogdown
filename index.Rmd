@@ -1,18 +1,18 @@
 ---
-title: "Indicadores de genero, VR"
+title: "Indicadores de género en STEM, Plan Ceibal"
 description: |
-  Welcome to the website. I hope you enjoy it!
+  ¡Te damos la bienvenida al sitio web del tablero de indicadores de género en STEM!
 site: distill::distill_website
 ---
+En este trabajo **medimos** el efecto de nueve programas STEM (ciencia, tecnología, ingeniería y matemática, por sus siglas en inglés) de Plan Ceibal por sexo o género.^[Si bien nuestra variable de interés es `género`, variable de `autopercepción` y no dicotómica, cuando utilizamos información disponible de registros administrativos (por ejemplo la cédula de identidad), la variable de la que disponemos es `sexo biológico`. A medida que los registros tomen más información de género, sustituiremos los datos de sexo por los de género.]
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+Para medir de manera sistematizada, hemos `desarrollado una metodología,` con los siguientes objetivos específicos:
 
-# Learn more about creating websites with Distill at:
-# https://rstudio.github.io/distill/website.html
+* Producir `evidencia empírica` que permita la toma de decisiones informadas, dentro y fuera de la institución
 
-# Learn more about publishing to GitHub Pages at:
-# https://rstudio.github.io/distill/publish_website.html#github-pages
+* `Compartir` esta evidencia para que pueda ser utilizada en sucesivos estudios
 
-```
+* Sumarnos a la política de `datos abiertos` del gobierno.
+
+* Compartir `herramientas` para promover la equidad de género en el área de STEM.
 
