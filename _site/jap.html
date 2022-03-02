@@ -2039,14 +2039,9 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--/radix_placeholder_distill-->
   <script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
   <script src="site_libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
-  <link href="site_libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
-  <script src="site_libs/datatables-binding-0.20/datatables.js"></script>
-  <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-  <link href="site_libs/dt-core-1.11.3/css/jquery.dataTables.min.css" rel="stylesheet" />
-  <link href="site_libs/dt-core-1.11.3/css/jquery.dataTables.extra.css" rel="stylesheet" />
-  <script src="site_libs/dt-core-1.11.3/js/jquery.dataTables.min.js"></script>
-  <link href="site_libs/crosstalk-1.2.0/css/crosstalk.min.css" rel="stylesheet" />
-  <script src="site_libs/crosstalk-1.2.0/js/crosstalk.min.js"></script>
+  <script src="site_libs/viz-1.8.2/viz.js"></script>
+  <link href="site_libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet" />
+  <script src="site_libs/grViz-binding-1.0.8/grViz.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2078,11 +2073,11 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </div>
 <div class="nav-right">
 <a href="index.html">Presentación</a>
-<a href="about.html">Introducción</a>
 <a href="tablero.html">Tablero</a>
+<a href="jap.html">JaP</a>
+<a href="about.html">Sobre nosotros</a>
 <a href="metodologia.html">Metodología</a>
 <a href="mapeo.html">Mapeo</a>
-<a href="jap.html">JaP</a>
 <a href="glosario.html">Glosario</a>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
 </div>
@@ -2101,108 +2096,142 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
 <div class="d-article">
-<h2 id="tablero-de-indicadores-web">Tablero de indicadores web</h2>
-<p>El tablero de indicadores web presenta la información de manera agregada, únicamente discriminando por género de las personas beneficiarias.</p>
-<div style="background-color:#fcf7c7;padding:30px">
-<p>Las variables que hemos incluido son:</p>
-<ol type="1">
-<li><p>Manifestación de interés en el programa JaP</p></li>
-<li><p>Inscripciones al test de ingreso (completar ficha de estudiante)</p></li>
-<li><p>Aprobaciones al test de ingreso (dos gráficos)</p></li>
-<li><p>Calificación obtenida</p></li>
-<li><p>Segundo intento test de ingreso</p></li>
-<li><p>Cantidad de personas egresadas</p></li>
-<li><p>Inserciones directas del Servicio de Intermediación Laboral (SIL) en el mercado laboral</p></li>
-</ol>
+<h2 id="sobre-el-programa-jóvenes-a-programar">Sobre el programa Jóvenes a Programar</h2>
+<p>Aquí se describen los efectos del programa <strong>Jóvenes a Programar “Alvaro Lamé” (JaP),</strong> por género.</p>
+<p>JaP disminuye además muchas otras desigualdades: de <strong>acceso,</strong> brindando oportunidades a los quintiles de ingreso medio y medio bajo; y <strong>geográfico,</strong> llegando a comunidades urbanas alejadas de la capital departamental y a zonas rurales. En parte, esto es gracias al impulso del modelo de enseñanza sincrónico-remoto, tan difundido desde 2020 con la pandemia COVID-19. Si bien no son el foco de este trabajo, no podemos dejar de remarcar esos otros logros que generan igualdad de oportunidades para la juventud.</p>
+<div style="background-color:#fcf7c7; padding:30px">
+<p>JaP es un programa emblemático para Plan Ceibal porque desde su creación en 2017 ha basado la toma de decisiones en evidencia empírica, con un enfoque de alta calidad en la generación y medición de datos.</p>
+<p>Al destacar las actividades de JaP buscamos extraer herramientas y recomendaciones que permitan el monitoreo activo del programa, así como también testear la teoría del cambio, y en la medida de lo posible, extrapolar propuestas a otros programas.</p>
 </div>
 <p><br></p>
-<p>El tablero está disponible aquí:</p>
+<p>A lo largo del tiempo, y al observar que varones y mujeres no se interesaban en igual medida por la propuesta, considerando también que el sector STEM es un sector de alta productividad, que paga altos salarios y permite flexibilidad horaria, JaP ha ido aplicando diferentes medidas tendientes a favorecer la equidad de género:</p>
+<ul>
+<li><p>test de ingreso con tiempos diferenciados, por género</p></li>
+<li><p>cohorte exclusivamente femenina (2019)</p></li>
+<li><p>Uso de lenguaje y de iconografía inclusivos, para fomentar la paridad de género al momento de la inscripción.</p></li>
+</ul>
+<p>Ante la pregunta de si <strong>este programa reduce, mantiene o aumenta las desigualdades de género entre mujeres y varones,</strong> la respuesta inmediata es que el programa ha reducido y busca activamente reducir las desigualdades de género entre mujeres y varones.</p>
+<p><strong>Desde su concepción, JaP es un programa de difusión de igualdad de oportunidades y de equidad, socioeconómica, geográfica y de género.</strong> La figura <a href="#fig:figjap1">1</a> muestra las características más destacadas en el diseño de JaP.</p>
 <div class="layout-chunk" data-layout="l-body">
-<div id="htmlwidget-bf66f84a43af2cb67dfe" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-bf66f84a43af2cb67dfe">{"x":{"filter":"none","vertical":false,"data":[["1","2","3","4","5","6","7","8","9","10"],[2017,2017,2018,2018,2019,2019,2020,2020,2021,2021],["Femenino","Masculino","Femenino","Masculino","Femenino","Masculino","Femenino","Masculino","Femenino","Masculino"],[3314,3728,1463,2324,3818,156,3602,3591,5438,4803],[414,414,861,861,-3662,-3662,-11,-11,-635,-635]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Año<\/th>\n      <th>Genero<\/th>\n      <th>Cantidad<\/th>\n      <th>Dif<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":5,"columnDefs":[{"className":"dt-right","targets":[1,3,4]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[5,10,25,50,100]}},"evals":[],"jsHooks":[]}</script>
-</div>
-<p>Hemos seleccionado una serie de visualizaciones que facilitan el análisis de los datos.</p>
-<h3 class="unnumbered" id="manifestación-de-interés-en-el-programa-jap">1. Manifestación de interés en el programa JaP</h3>
-<div class="layout-chunk" data-layout="l-body">
-<p><img src="Belen/externos/Gráfico Interés 1.png" width="100%" /></p>
-</div>
-<h3 class="unnumbered" id="inscripciones-al-test-de-ingreso-completar-ficha-de-estudiante">2. Inscripciones al test de ingreso (completar ficha de estudiante)</h3>
-<div class="layout-chunk" data-layout="l-body">
-
-</div>
-<h3 id="este-gráfico-muestra-los-valores-absolutos.-si-se-mostrara-la-proporción-por-género-en-preparación-se-vería-la-caída-marginal-hubo-impacto-positivo-pero-menor-en-mujeres.">Este gráfico muestra los valores absolutos. Si se mostrara la proporción por género (en preparación) se vería la caída marginal (hubo impacto positivo pero menor) en mujeres.</h3>
-<div class="layout-chunk" data-layout="l-body">
-<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-4"></span>
-<img src="Belen/externos/Gráfico Ficha Estudiante.png" alt="Ficha JaP, por género" width="120%" />
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:figjap1"></span>
+<div id="htmlwidget-b353d60984698f1f7360" style="width:80%;height:468px;" class="grViz html-widget"></div>
+<script type="application/json" data-for="htmlwidget-b353d60984698f1f7360">{"x":{"diagram":"digraph {\n# dot, circo, twopi, neato\n  #graph [layout = dot, rankdir = ]\n  graph [layout = dot, rankdir = TB, overlap = False, spine=True]\n  #shape = rpromoter, folder, cds\n  node [shape = plaintext, fontname=Verdana, fontcolor=Firebrick, margin =0.25]    \n  \n  n0 [label = \"JaP es un \n programa masivo, inclusivo, \n y distribuido\"]\n  node [shape = plaintext, fontname=Verdana, fontcolor=Crimson, margin =0.25]\n  n1 [label = \"Brinda igualdad \n de oportunidades\"]\n  n2 [label = \"Foco en \n quintiles de \n ingreso \n medio y\n  medio-bajo\"]\n  n3 [label = \"Cobertura \n nacional\"] \n  n30 [label = \"Montevideo\"]\n  n31 [ label = \"Interior\"]\n  n32 [label = \"urbano\"]\n  n33 [label = \"rural\"]\n  node [shape = plaintext, fontname=Verdana, fontcolor=DarkGreen, margin =0.25]\n  n4 [label = \"de género\"]\n  \n  node [shape = plaintext, fontname=Verdana, fontcolor=Firebrick, margin =0.25]    \n  \n  n11 [label = \"de manera \n costo-eficiente\"]\n  \n  # edge definitions with the node IDs\n  edge [color=grey, style=dashed]\n   n0 -> n1\n   n0 -> n11\n   n1 -> n2\n   n1 -> n3 -> n30\n   n3-> n31 ->n32\n   n31-> n33\n   \n   n1 -> n4\n   \n  \n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 <p class="caption">
-Figure 1: Ficha JaP, por género
+Figure 1: Características de diseño de JaP
 </p>
 </div>
 </div>
-<h3 class="unnumbered" id="aprobaciones-al-test-de-ingreso">3. Aprobaciones al test de ingreso</h3>
+<p>El foco inicial del programa era <code>capacitar en programación y testing</code> a jóvenes, dada la alta demanda por estas especializaciones en el sector TIC, con desempleo cero.</p>
+<p>Como segunda idea principal estaba el facilitar la reinserción de las personas <code>NiNi</code> (no estudian ni trabajan) al sistema educativo formal. La primera medida de efecto positivo del programa es que, desde su creación en 2017 y hasta 2021, <strong>han egresado 3200 jóvenes.</strong></p>
+<h2 id="factores-de-éxito">Factores de éxito</h2>
+<p>Hay principalmente cuatro factores que explican el éxito del modelo JaP: un <strong>modelo de capacitación</strong> que integra competencias técnicas con habilidades transversales (trabajar en equipo, integrar soluciones, resolver conflictos) e idioma inglés.</p>
+<p>La dirección estratégica del programa, a cargo de una ingeniera con experiencia internacional, llevó a tener un relacionamiento fluido con el sector de tecnología (cámara de tecnologías de la información), desde donde se escuchan e implementan sugerencias y recomendaciones, <strong>resolviendo fallas de coordinación.</strong></p>
+<p>Desde el inicio, el modelo <code>lean start-up</code>, de revisión constante de procesos, junto a una <strong>alta capacidad de implementar, ejecutar y tomar decisiones basándose en evidencia empírica,</strong> ha llevado a una revisión continua del modelo de enseñanza aprendizaje hasta llegar a una solución <code>escalable,</code> al que se le suma un crecimiento orgánico del equipo de trabajo, con un <strong>fuerte compromiso con el desempeño y los logros del estudiantado</strong> (ver fig <a href="#fig:figjap2">2</a>).</p>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="Belen/externos/Gráfico Aprobación Test de ingreso.png" width="100%" /></p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:figjap2"></span>
+<div id="htmlwidget-dc0066c1e359ae52a561" style="width:80%;height:468px;" class="grViz html-widget"></div>
+<script type="application/json" data-for="htmlwidget-dc0066c1e359ae52a561">{"x":{"diagram":"digraph {\n# dot, circo, twopi, neato\n  #graph [layout = dot, rankdir = ]\n  graph [layout = twopi, rankdir = TB, overlap = False]\n  #shape = rpromoter, folder, cds\n  node [shape = oval, fontname=Verdana, fontcolor=Indigo, margin =0.25]    \n  \n  n0 [label = \"Joven \n como \n protagonista\"]\n  subgraph cluster1{\n  node [shape = plaintext, fontname=Verdana, fontcolor=Firebrick, margin =0.25]    \n  n1 [label = \"1. Modelo \n de capacitación\"]\n  n2 [label = \"2. Relacionamiento \n con sector de \n tecnología\"]\n  n3 [label = \"3. Procesos basados  \n en tecnología con \n datos estadísticos \n y operacionales\"]\n  n4 [label = \"4. Equipo multidisciplinario \n de alto desempeño \n y compromiso\"]\n  }\n  \n  subgraph{\n  rank=same\n  \n  node [shape = plaintext, fontmane = Verdana, fontcolor = Crimson, margin = 0.3]\n  n11 [label = \"Competencias técnicas, \n habilidades \n socioemocionales, \n inglés\"]\n  n21 [label = \"Co-creación público \n privada \n que resuelve \n fallas de coordinación\"]  \n  n31 [label = \"Generación y uso\n de evidencia empírica \n para corregir / reformular \n propuesta\"]\n  n41 [label = \"Colaboración y \n construcción de \n confianza interpersonal\"]\n  }\n  \n  node [shape = plaintext, fontmane = Verdana, fontcolor = Crimson, margin = 0.3]\n  \n  # edge definitions with the node IDs\n  edge [color=grey]\n  # n1->n2 ->n1->n3-> n1-> n4 -> n1\n  #  n3 -> n2 -> n3 -> n4 -> n3\n  # n4->n2 -> n4\n   \n  n0 -> n1\n  n0 -> n2\n  n0 -> n3\n  n0 -> n4\n  \n  n1 -> n2 -> n3 -> n4 ->n1\n  n1 -> n11\n  n2 -> n21\n  n3 -> n31\n  n4 -> n41 \n\n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<p class="caption">
+Figure 2: Factores que explican el éxito del modelo JaP
+</p>
 </div>
-<p>¿Por qué hay varones que aprueban el test de ingreso en 2019?</p>
-<h3 class="unnumbered" id="calificación-obtenida">4. Calificación obtenida</h3>
+</div>
+<h2 id="logros-de-jap">Logros de JaP</h2>
+<p>JaP crea mercados.</p>
+<p>JaP resuelve fallas de coordinación.</p>
+<p>JaP ha contribuido a crear una nueva institucionalidad.</p>
+<p>JaP beneficia a toda la sociedad.</p>
+<div style="background-color:#fff2f2; padding:30px">
+<h2>
+Creación de mercados
+</h2>
+<p>Los mercados no aparecen de manera espontánea, sino que son las actividades de las personas las que los fomentan / destruyen.</p>
+<p>Se crean nuevos mercados cuando las personas (agentes) detectan por accidente o por diseño una necesidad latente y comunican su solución a esa necesidad: los mercados surgen cuando los actores económicos trasladan recursos a la solución de esa empresa.</p>
+<p>La forma más visible de crear un nuevo mercado es ofrecer un producto / servicio que sea novedoso, abordando así necesidades que no fueron satisfechas (y quizás ni siquiera detectadas).</p>
+<p>Lo más importante para crear un mercado, es la <code>visión</code>, la capacidad de imaginar algo que todavía no existe.</p>
+</div>
+<p><br></p>
+<p>Las empresas no demanda(ba)n perfiles junior, el sector de educación no ofrecía este perfil.</p>
+<p>JaP resuelve una externalidad negativa (presencia de jóvenes <code>NiNi</code>) por medio de la creación de un mercado piloto para un bien secundario (?):<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> programación a nivel junior (fig <a href="#fig:nice-figjap3">3</a>). Plan Ceibal opera como institución que nuclea las organizaciones que absorben el riesgo (BID, CUTI, INEFOP) y lo minimiza por medio de una propuesta masiva, inclusiva y diversificada.</p>
+<p><strong>Plan Ceibal</strong> aporta también la <code>visión</code> de cómo mejorar el mundo: (re)insertar a jóvenes en educación formal por medio de tecnologías de alta demanda: programación y testing, lo que favorece <strong>directamente</strong> a las personas, que reciben educación de calidad en un sector de alta demanda, lo que (a) las motiva a seguir estudiando, y (b) facilita la inserción laboral en empleos de alta productividad. Además, hay un <strong>beneficio para toda la economía,</strong> ya que por un lado, estas personas que ahora estudian, salen de la categoría de <code>inactividad</code> del mercado laboral, con lo que disminuyen costos para el estado, y por otro, <code>se insertan en el sector productivo.</code></p>
+<p>No solamente JaP ha logrado <strong>transformar la vida de las personas que egresan</strong>, reinsertándolas ya sea en el mercado laboral o en el sistema educativo formal, sino que además ha dado <strong>voz y participación en procesos de toma de decisión</strong> (agencia) a sus participantes, teniendo un <strong>efecto positivo y significativo</strong> en las decisiones ocupacionales, logrado a un <strong>bajo costo por estudiante</strong>.</p>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="Belen/externos/p_calific.gif" width="100%" /></p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:nice-figjap3"></span>
+<div id="htmlwidget-090ea676ba4ba6d5d9ee" style="width:80%;height:468px;" class="grViz html-widget"></div>
+<script type="application/json" data-for="htmlwidget-090ea676ba4ba6d5d9ee">{"x":{"diagram":"digraph {\n# dot, circo, twopi, neato\n  #graph [layout = dot, rankdir = ]\n  graph [layout = dot, rankdir = TB, overlap = False]\n  #shape = rpromoter, folder, cds\n  node [shape = plaintext, fontname=Verdana, fontcolor=Purple, margin =0.25]    \n  \n  n0 [label = \"Visión de \n cómo mejorar \n el mundo: \n insertar a jóvenes \n en mkt laboral y/o \n reinsertarlos \n en educación formal\"]\n  n01 [label = \"Instrumento: \n programación \n y pensamiento \n crítico\"]\n  n1 [label = \"Hay servicios \n no transados: \n las empresas \n no contratan \n  personas muy junior\"]\n  n11 [label = \"afecta el bienestar \n de la sociedad\"]\n  n2 [label = \"Mercados para riesgo: \n Ceibal toma el riesgo \n minimizado porque \n el programa es \n masivo y distribuido\"]\n  n3 [label = \"Teoría de agencia: \n dar voz y voto \n a instituciones \n del ecosistema\"]\n  n4 [label = \"Economía \n del \n comportamiento: \n fuerte compromiso \n del equipo \n que contagia \n entusiasmo \n y eleva aspiraciones\"]\n\n  n5 [ label = \"Idea \n y \n Ejecución\"]\nedge [color=grey, style=dashed]\n\n n0 -> n01 -> n1 -> n11 -> n5\n n01 -> n2 -> n5\n n01 -> n3 -> n5\n n01 -> n4 -> n5\n\n\n\n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<p class="caption">
+Figure 3: Creación de mercados
+</p>
 </div>
-<h3 class="unnumbered" id="segundo-intento-test-de-ingreso">5. Segundo intento test de ingreso</h3>
+</div>
+<div style="background-color:#fff3f5; padding:30px">
+<h2>
+Resolución de fallas de coordinación
+</h2>
+<blockquote>
+<p>Se duplica la probabilidad de trabajar en la industria luego de pasar por JAP. Fiorella Haim</p>
+</blockquote>
+<p>Foco en acciones; decisiones basadas en evidencia, discriminación positiva.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
+</div>
+<p><br></p>
+<h2 id="modelo-cost-effective-inclusivo-e-igualitario">Modelo cost-effective, inclusivo e igualitario</h2>
+<blockquote>
+<p>Jóvenes a Programar (apunta a jóvenes entre 18 y 30 años),luego de una edición exclusivamente dirigida a mujeres en 2019 se logró alcanzar, en el global de las tres ediciones, que el 44 % del egreso fueran mujeres. En un estudio realizado sobre la continuidad de estudios o trabajo en el área de TI se constató que las egresadas del programa triplicaban este número respecto al grupo de control.(Fuente: <a href="https://www.youtube.com/watch?v=xoCf2NdCws4" class="uri">https://www.youtube.com/watch?v=xoCf2NdCws4</a> )</p>
+</blockquote>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="Belen/externos/p_seg_intent.png" width="100%" /></p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:nice-figjap4"></span>
+<div id="htmlwidget-c3577f9a256e76371a95" style="width:80%;height:468px;" class="grViz html-widget"></div>
+<script type="application/json" data-for="htmlwidget-c3577f9a256e76371a95">{"x":{"diagram":"digraph {\n# dot, circo, twopi, neato\n  graph [layout = dot, rankdir = TB, overlap = False]\n  #shape = rpromoter, folder, cds\n  node [shape = plaintext, fontname=Verdana, fontcolor=Firebrick, margin =0.25]    \n  \n  n2 [label = \"Plan Ceibal\"]\n  node [shape = plaintext, fontname=Verdana, fontcolor=Firebrick, margin =0.25]    \n  n21 [label = \"Visión de \n cómo mejorar \n el mundo\"]\n  n22 [label = \"Red de \n videoconferencias \n de 1500 nodos\"]\n  n23 [label = \"Capacidad \n de ejecución\"]\n  n24 [label = \"Agencia innovadora \n e implementadora \n de innovaciones\"]\n  \n  node [shape = plaintext, fontname=Verdana, fontcolor=Crimson, margin =0.25]    \n  n3 [label = \"Jóvenes a Programar\"]\n \n  node [shape = plaintext, fontname=Verdana, fontcolor=DarkOrange, margin =0.25]    \n  n6 [label = \"2017 \n Validación modelo \n programación a \n distancia \"]\n  n7 [label = \"2018 \n Posicionamiento \n perfil junior \n en la industria \"]\n  n8 [ label = \"2019 \n Sumando \n más mujeres \n en tecnología\"]\n  n9 [label = \"2020 \n Maduración \n del modelo\"]\n  n10 [label = \"2021 \n Consolidación y \n alianzas\"]\n \n node [shape = plaintext, fontname=Verdana, fontcolor=DarkGreen, margin =0.25]    \n  n11 [label = \"Creación de mercados, \n solución de fallas \n de coordinación\"]\n  n12 [label = \"Conocimiento específico, \n competencias transversales, \n inglés\"]\n  n17 [label = \"Foco en \n equidad \n de género\"]\n  n18 [ label = \"Propuesta \n 100% virtual\" ]\n  n29 [ label = \"Datos e impacto, \n escalabilidad, \n adaptabilidad\"]\n  \n  \n  edge [color = grey]\n  n2 -> {n21, n22, n23, n24} \n  edge [color = Crimson, style = dashed]\n  {n21, n22, n23, n24} -> n3\n\n  edge [color = DarkOrange, style = dashed]\n  n3 -> {n6, n7, n8, n9, n10}\n  \n  edge [color = DarkGreen, style = dashed]\n  n6 -> n12\n  n7 -> n11\n  n8 -> n17\n  n9 -> n18\n  n10 -> n29\n\n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<p class="caption">
+Figure 4: Fortalezas específicas de Plan Ceibal para JaP
+</p>
 </div>
-<h3 class="unnumbered" id="cantidad-de-personas-egresadas">6. Cantidad de personas egresadas</h3>
+</div>
+<h3 id="nueva-institucionalidad">Nueva institucionalidad</h3>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="Belen/externos/Gráfico Egresados 1.png" width="100%" /></p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:nice-figjap5"></span>
+<div id="htmlwidget-16b0bb618aa2ac52e872" style="width:80%;height:468px;" class="grViz html-widget"></div>
+<script type="application/json" data-for="htmlwidget-16b0bb618aa2ac52e872">{"x":{"diagram":"digraph {\n# dot, circo, twopi, neato\n  graph [layout = dot, overlap = False, spline=True]\n  #shape = rpromoter, folder, cds\n  \n  node [shape = plaintext, fontname=Verdana, fontcolor=Crimson, margin =0.25]    \n  n1 [label = \"Co-creación de \n un ecosistema \n institucional\"]\n  n6 [label = \"Colaboración \n inter-institucional \n público - privada\"]\n  \n  \n  rank = same {n1, n6}\n  \n  node [shape = plaintext, fontname=Verdana, fontcolor=Purple, margin =0.25]   \n  \n  n5 [label = \"Servicio de \n intermediación \n laboral \n desde 2018\"]\n  \n  n2 [label = \"Academia JaP\"]\n  n3 [label = \"Convenio con UTU \n Talleres de competencias \n transversales\"]\n  n4 [label = \"Centros CECAP \n Laboratorios tecn \n Taller experimental \n tecnológico\"]\n  \n  \n n7 [label = \"Anima \n Los Pinos \n Hallburton \n Sembrando \n Fundación Forge \n b_IT \n Técnólogo de UTU\"]\n\n  \n  edge [color = grey]\n  \n  {n1, n6}  -> {n2, n3, n4, n5, n7}\n  \n  edge [color = Crimson, style =dashed]\n  \n  n1 -> n6 -> n1\n  \n  \n  \n}","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<p class="caption">
+Figure 5: Nueva institucionalidad creada a iniciativa de JaP
+</p>
 </div>
-<p>La proporción de mujeres egresadas viene aumentando de forma constante a lo largo del tiempo.</p>
-<h3 class="unnumbered" id="inserciones-directas-sil-en-el-mercado-laboral">7. Inserciones directas (SIL) en el mercado laboral</h3>
-<div class="layout-chunk" data-layout="l-body">
-<p><img src="Belen/externos/Gráfico Inserción Laboral 1.png" width="100%" /></p>
 </div>
-<h2 id="gráficos-resumen">Gráficos resumen</h2>
-<p><strong>Gráfico que compila todo el proceso</strong></p>
-<div class="layout-chunk" data-layout="l-body">
-<p><img src="Belen/externos/p_proceso.gif" width="100%" /></p>
+<ul>
+<li>Más que opiniones, basarse en estudios. Acciones de discriminación positiva.</li>
+</ul>
+<p>Relevar qué funciona y qué no. Estudios internacionales que dan pistas(libro de Iris Bonett, directora en Harvard: un experimento que contaba con CV, nombres de varón vs nombres de mujer; cortina en las audiciones xa integrar orquestas aumentó la participación de mujeres de 5% a 40%).</p>
+<h2 id="resultados">Resultados</h2>
+<div style="background-color:#89023e; color:white; padding:30px">
+<ul>
+<li><p>A medida que transcurre el tiempo se constata que las personas que manifiestan interés / se inscriben tienen más educación formal alcanzada (la mayoría completó educación secundaria).</p></li>
+<li><p>EL test de ingreso de 2022 fue aprobado por el 74% de los varones y por el 49% de las mujeres. En años anteriores la brecha observada era menor (sobre todo porque aprobaba el 59% de las mujeres).</p></li>
+<li><p>En el acumulado de egresos, hay un 40% de mujeres, en gran parte explicado porque la generación 2019 fue exclusivamente de mujeres.</p></li>
+<li><p>Se observa un efecto “contagio” positivo en la generación 2020, pero que decrece y se va diluyendo con el tiempo. Se converge a las cifras que se observan en la industria.</p></li>
+</ul>
 </div>
-<div class="layout-chunk" data-layout="l-body">
-<p><img src="Belen/externos/Genero_Etapa_FichayTest.gif" width="100%" /></p>
+<p><br></p>
+<div style="background-color:#ff9505; color:white; padding:30px">
+<h2>
+Propuestas
+</h2>
+<ul>
+<li><p>Randomizar por grupos, donde algunos queden solamente integrados por mujeres y otros mixtos. Cada grupo tiene características observables similares.</p></li>
+<li><p>Propuesta de asignación de fase 1 a fase 2:</p>
+<ul>
+<li>armar subgrupos por: género, ubicación geográfica, quintil de ingreso, y que de ahí luego pasen por nota en la prueba de desempeño técnico la cantidad de personas para ir cubriendo los cupos y a la vez teniendo en cuenta consideraciones de equidad.</li>
+</ul></li>
+</ul>
 </div>
-<div class="layout-chunk" data-layout="l-body">
-<p><img src="Belen/externos/evolución_brecha_etapas_opc4.gif" width="100%" /></p>
-</div>
-<hr />
-<h2 id="tablero-de-indicadores-para-uso-interno">Tablero de indicadores para uso interno</h2>
-<p>El tablero de indicadores para uso interno presenta la información de manera más desagregada, permitiendo ver desagregaciones de varias dimensiones (género, ingreso, localización geográfica) de manera simultánea.</p>
-<div class="layout-chunk" data-layout="l-body">
-<p><img src="Belen/internos/Aprobacion-Genero-Hijos-Absolutos.png" width="100%" /></p>
-</div>
-<div class="layout-chunk" data-layout="l-body">
-<p><img src="Belen/internos/Gráfico Interés 2.png" width="100%" /></p>
-</div>
-<div class="layout-chunk" data-layout="l-body">
-<p><img src="Belen/internos/AprGenHijos-Porcentaje.png" width="100%" /></p>
-</div>
-<p>Mujeres sin hijos aprueban en mayor proporción que varones con hijos. La brecha es maternidad / paternidad, no género.</p>
-<div class="layout-chunk" data-layout="l-body">
-<p><img src="Belen/internos/Distribución nivel educativo previo final.png" width="100%" /></p>
-</div>
-<p>Lo más destacable es que JaP reinserta a personas con bachillerato no científico en este sector de actividad.</p>
-<p>De este gráfico nos llama la atención que haya gente solamente con primaria.</p>
-<div class="layout-chunk" data-layout="l-body">
-<p><img src="Belen/internos/Gráfico Egresados 2.png" width="100%" /></p>
-</div>
-<p>Este gráfico solamente muestra las inserciones directas a través del Sistema de Intermediación Laboral (SIL)</p>
-<div class="layout-chunk" data-layout="l-body">
-<p><img src="Belen/internos/Gráfico Inserción Laboral 2.png" width="100%" /></p>
-</div>
-Este gráfico de abajo es el resumen. Es para la interna porque es muy difícil de interpretar.
-<div class="layout-chunk" data-layout="l-body">
-<p><img src="Belen/internos/indicador de brecha por año opc 2.png" width="100%" /></p>
-</div>
-<p>Tenemos que validar la recodificación de sistema educativo (en preparación).</p>
+<p><br></p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<section class="footnotes" role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1" role="doc-endnote"><p>no recuerdo por qué puse secundario<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2" role="doc-endnote"><p>Link: <a href="https://www.youtube.com/watch?v=3YB4ycuxg6A" class="uri">https://www.youtube.com/watch?v=3YB4ycuxg6A</a><a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>
